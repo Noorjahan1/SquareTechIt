@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* end of common css */
+/* nav part starts */
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+ .navbar-nav .nav-item .nav-link{
+    color: #C08DFF;
+}
+#active{
+    color: #8828FF;
+}
+/* nav part ends */
+/* banner part starts */
+.banner{
+    background: url(../images/banner.jpg);
+    padding-top: 120px;
+    padding-bottom: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.right-image{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.banner-list li{
+    display: inline-block;
+}
+/* banner part ends */
