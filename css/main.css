@@ -23,12 +23,15 @@ a{
 #active{
     color: #8828FF;
 }
+.navbar-nav .nav-item .nav-link:hover{
+     color: #8828FF;
+}
 /* nav part ends */
 /* banner part starts */
 .banner{
     background: url(../images/banner.jpg);
     padding-top: 120px;
-    padding-bottom: 800px;
+    padding-bottom: 252px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -42,4 +45,257 @@ a{
 .banner-list li{
     display: inline-block;
 }
+.banner-text h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.banner-text p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.banner-list li:first-child a{
+    background: #8828FF;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.banner-list li:last-child a{
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
 /* banner part ends */
+/* app part starts */
+.app-text h3{
+    color: #20184E;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+.app-text p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #666666;
+padding-bottom: 30px;
+}
+.browse a{
+    background: #F8F2FF;
+    padding: 20px 30px 20px 30px;
+    color:#8828FF;
+    border-radius: 30px;
+}
+/* app part ends */
+/* chat section starts */
+.cirle-parent{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    right: 0;
+}
+.chat-text h3{
+
+}
+/* chat section ends */
+/* productivity part starts */
+.productivity-text h3{
+    font-family: 'Space Grotesk';
+font-weight: 700;
+font-size: 38px;
+text-transform: capitalize;
+color: #20184E;
+}
+/* productivity part ends */
+/* footer part starts */
+#footer{
+    background: #260055;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.logo-text p{
+    color: #ADABB7;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.social-media a{
+    margin-right: 20px;
+}
+.usefulLink-tex h3,.about h3,.ourProduct h3{
+     font-family: 'Space Grotesk';
+     font-weight: 700;
+     font-size: 20px;
+     color: #FFFFFF;
+     padding-bottom: 3rem;
+}
+.useful-links ul li{
+    padding-bottom: 20px;
+}
+.useful-links ul li a{
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 18px;
+    color: #ADABB7;
+}
+.copyright p{
+ font-family: 'Satoshi';
+font-weight: 400;
+font-size: 18px;
+color: #ADABB7;
+}
+.heart{
+    color: red;
+}
+/* footer part ends */
+/* idea part starts */
+.idea-text h3{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #20184E;
+}
+.idea-text2 p{
+    font-family: 'Satoshi';
+    font-weight: 400;
+    font-size: 18px;
+    color: #666666;
+}
+.more-article a{
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #8828FF;
+    padding: 20px 30px 20px 30px;
+    border-radius: 30px;
+}
+.idea{
+    border: none;
+    background: #FDFDFD;
+    border-radius: 20px;
+}
+.idea-para p:first-child{
+    font-family: 'Satoshi';
+font-weight: 400;
+font-size: 14px;
+color: #ADABB7;
+padding-top: 2rem;
+}
+.idea-para p:last-child{
+    margin-top: -10px;
+ color: #8828FF;
+}
+.id-text h3{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #20184E;
+}
+.id-text p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #ADABB7;
+}
+/* idea part ends */
+/* testimonial part starts */
+#testimonial{
+    background: url(../images/rect.png);
+    padding-top: 230px;
+    padding-bottom: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.testimonial-text h3{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.testimonial-text p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+
+color: #FFFFFF;
+}
+.author-image,
+.author-name{
+    display: inline-block;
+    margin-right: 10px;
+}
+.test-card{
+    background: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    border-radius: 10px;
+}
+.author-name p{
+    font-family: 'Nunito';
+font-weight: 700;
+font-size: 15px;
+color: #8828FF;
+}
+.testimonial p{
+    font-family: 'Nunito';
+font-weight: 400;
+font-size: 18px;
+color: #8F8F8F;
+}
+
+/* testimonial part ends */
+/* package part starts */
+#package{
+    background: url(../images/Rectangle\ 49.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.package-text h3{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+
+text-transform: capitalize;
+
+color: #20184E;
+}
+.package-text p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #666666;
+}
+.plan-name{
+    background: url(../images/Group\ 1006.png);
+}
+
+/* package part ends */
