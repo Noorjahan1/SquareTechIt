@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
      <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg ">
@@ -80,7 +81,24 @@ For businesses who need clarity, productive communication, prioritisation and ac
  <!-- Connect with app part starts -->
  <section id="app" class="mt-5">
    <div class="container">
-     <div class="row">
+          <div class="row res-chat">
+       <div class="col-lg-8">
+          <div class="app-text mt-5">
+           <h3>Connect With Apps You Use for Work</h3>
+           <p>Tazkily integrates with the products you use, bringing all your tasks, files and communications in one place so you always know what to do next.</p>
+           <div class="browse">
+             <a href="#">Browse integrations</a>
+           </div>
+         </div>
+        
+       </div>
+       <div class="col-lg-4">
+          <div class="app-image">
+           <img src="images/app.png" alt="image-app">
+         </div>
+       </div>
+     </div>
+     <div class="row res-chat2">
        <div class="col-lg-8">
          <div class="app-image">
            <img src="images/app.png" alt="image-app">
@@ -129,17 +147,82 @@ For businesses who need clarity, productive communication, prioritisation and ac
  <!-- Chat section ends -->
  <!-- Package Part Starts -->
  <section id="package">
-   <div class="package-text text-center">
+   <div class="package-text text-center p-5">
      <h3>Your Suitable packaage <br>for your needs</h3>
      <p>Our powerful free plan gives you access to core Tazkily features.</p>
    </div>
+   <div class="subcripton text-center">
+     <span class="min-range">Monthly</span>
+     <div class="slider">
+       <div class="pick"></div>
+     </div>
+     <span class="max-range">Annually</span>
+   </div>
    <div class="container">
      <div class="row">
-       <div class="col-lg-4">
+       <div class="col-lg-4 ">
          <div class="package-card">
-           <div class="plan-name text-center">
+           <div class="plan-name plan">
              <h3>Free plan</h3>
-
+             <span class="plan-price">$0</span>
+             <span class="duration">/ Life time</span>
+           </div>
+           <div class="plan-list p-5">
+             <ul>
+               <li><img src="images/tick.png" alt="tick" class="pr-4">Today & Planning view</li>
+               <li><img src="images/tick.png" alt="tick" class="pr-4">Checklist templates</li>
+               <li><img src="images/tick.png" alt="tick" class="pr-4">Calendar integration</li>
+               <li><img src="images/tick.png" alt="tick" class="pr-4">Browser extension</li>
+               
+             </ul>
+           </div>
+           <div class="get-started pl-5">
+             <a href="#">Get Started</a>
+           </div>
+         </div>
+       </div>
+       <div class="col-lg-4  ">
+         <div class="package-card plan basic">
+           <div class="basic-recom text-center">
+             <a href="#">Recommended</a>
+           </div>
+           <div class="plan-name ">
+             <h3>Basic plan</h3>
+             <span class="plan-price">$10</span>
+             <span class="duration">/ Per Month</span>
+           </div>
+           <div class="plan-list recommended p-5">
+             <ul>
+               <li><img src="images/whiteTick.png" alt="tick" class="pr-4">Everything in Free</li>
+               <li><img src="images/whiteTick.png" alt="tick" class="pr-4">Checklist templates</li>
+               <li><img src="images/whiteTick.png" alt="tick" class="pr-4">Premium integration</li>
+               <li><img src="images/whiteTick.png" alt="tick" class="pr-4">30-day trial</li>
+               
+             </ul>
+           </div>
+           <div class="get-started pl-5">
+             <a href="#">Get Started</a>
+           </div>
+         </div>
+       </div>
+           <div class="col-lg-4 ">
+         <div class="package-card">
+           <div class="plan-name plan">
+             <h3>Advance plan</h3>
+             <span class="plan-price">$50</span>
+             <span class="duration"> / Per Month</span>
+           </div>
+           <div class="plan-list p-5">
+             <ul>
+               <li><img src="images/tick.png" alt="tick" class="pr-4">Everything in Basic</li>
+               <li><img src="images/tick.png" alt="tick" class="pr-4">Unlimited members</li>
+               <li><img src="images/tick.png" alt="tick" class="pr-4">Dedicated support</li>
+               <li><img src="images/tick.png" alt="tick" class="pr-4">All advance features*</li>
+               
+             </ul>
+           </div>
+           <div class="get-started pl-5">
+             <a href="#">Get Started</a>
            </div>
          </div>
        </div>
@@ -246,7 +329,10 @@ For businesses who need clarity, productive communication, prioritisation and ac
      <h3>
        Used by fellow productivity <br> nerds at places like...
      </h3>
-     <img src="images/Group 1146.png" alt="">
+     <div class="productivity-imge">
+      <img src="images/Group 1146.png" alt="">
+     </div>
+    
    </div>
  </section>
  <!-- productivity ends -->
@@ -389,13 +475,13 @@ For businesses who need clarity, productive communication, prioritisation and ac
      </div>
      <div class="copyright mt-5">
        <div class="row">
-         <div class="col-lg-4 text-left">
+         <div class="col-lg-4 text-left res">
            <p>Made with <span class="heart">❤</span> by Tazkily Team</p>
          </div>
          <div class="col-lg-4 text-center">
            <p>Copyright © Tazkily, 2021</p>
          </div>
-         <div class="col-lg-4 text-right">
+         <div class="col-lg-4 text-right res">
            <p>Help center</p>
          </div>
        </div>

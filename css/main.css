@@ -26,6 +26,25 @@ a{
 .navbar-nav .nav-item .nav-link:hover{
      color: #8828FF;
 }
+.navbar-text a:first-child{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #8828FF;
+padding-right: 20px;
+}
+.navbar-text a:last-child{
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #8828FF;
+padding: 10px 20px 10px 20px;
+text-align: center;
+border: 1px solid #8828FF;
+border-radius: 30px;
+}
 /* nav part ends */
 /* banner part starts */
 .banner{
@@ -111,6 +130,19 @@ padding-bottom: 30px;
     right: 0;
 }
 .chat-text h3{
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+color: #20184E;
+}
+.chat-text p{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #666666;
+padding-top: 30px;
 
 }
 /* chat section ends */
@@ -294,8 +326,108 @@ font-weight: 400;
 font-size: 18px;
 color: #666666;
 }
-.plan-name{
+.plan{
     background: url(../images/Group\ 1006.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    padding:20px 20px 20px 30px;
+}
+.plan-name h3{
+   font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #FFFFFF;
+}
+.plan-price{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+text-transform: capitalize;
+color: #FFFFFF;
+padding-right: 10px;
+}
+.duration{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+}
+.plan-list li{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #666666;
+padding-bottom: 10px;
+}
+.package-card{
+    border:1px solid #EDEDED;
+   border-radius: 20px 20px 10px 10px;
+   padding-bottom: 30px;
+}
+.get-started a{
+    color: #8828FF;
+    background: #F8F2FF;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.subcripton{
+   margin: 10px 0px 30px 0px;
 }
 
+.subcripton .slider{
+    display: inline-block;
+    width: 104px;
+height: 20px;
+background: #FFFFFF;
+border-radius: 36px;
+ margin: 0px 20px 0px 20px;
+}
+.pick{
+    width: 38px;
+height: 20px;
+background: #8828FF;
+border-radius: 36px;
+}
+.min-range,.max-range{
+    font-family: 'Satoshi';
+font-weight: 400;
+font-size: 18px;
+color: #666666;
+}
+.recommended ul li{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #EDEDED;
+}
+.basic{
+    position: relative;
+}
+.basic-recom{
+    position: absolute;
+    background: #FFDA58;
+    right: 20px;
+    top: 0px;
+    padding: 10px 20px 20px 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+.basic-recom a{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #20184E;
+
+}
 /* package part ends */
+/* for responsive design */
+.res-chat{
+    display: none;
+}

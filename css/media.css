@@ -1,0 +1,22 @@
+
+@media (min-width: 320px) and (max-width:570px) {
+    .app-image img{
+            width: 100%;
+            height: 298px;
+    }
+    .chat-bubble img{
+        width: 100%;
+    }
+    .productivity-imge{
+        display: none;
+    }
+    .res{
+        display: none;
+    }
+    .res-chat{
+        display: block;
+    }
+    .res-chat2{
+        display: none;
+    }
+ }
